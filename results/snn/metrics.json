@@ -1,0 +1,22 @@
+{
+  "model": "SNN",
+  "seed": 42,
+  "window": 96,
+  "horizon": 1,
+  "features": [
+    "grid",
+    "air1",
+    "furnace1",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos"
+  ],
+  "target": "grid",
+  "test": {
+    "MAE": 0.523985743522644,
+    "RMSE": 0.8545622181124345,
+    "R2": 0.6118084192276001
+  },
+  "best_validation_rmse": 1.0397253575267689
+}

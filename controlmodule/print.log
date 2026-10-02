@@ -1,0 +1,123 @@
+
+=== Aggregate Power ===
+count    6.760511e+06
+mean     3.812162e+02
+std      4.283192e+02
+min      0.000000e+00
+25%      1.940000e+02
+50%      2.980000e+02
+75%      4.730000e+02
+max      6.566300e+04
+Name: Aggregate, dtype: float64
+
+=== Appliance Power ===
+
+Appliance1
+count    6.760511e+06
+mean     9.830997e+00
+std      2.498330e+01
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      3.968000e+03
+Name: Appliance1, dtype: float64
+
+Appliance2
+count    6.760511e+06
+mean     6.118070e+01
+std      7.307838e+01
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      1.340000e+02
+max      3.791000e+03
+Name: Appliance2, dtype: float64
+
+Appliance3
+count    6.760511e+06
+mean     3.735436e+01
+std      6.019931e+01
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      1.230000e+02
+max      3.717000e+03
+Name: Appliance3, dtype: float64
+
+Appliance4
+count    6.760511e+06
+mean     4.208467e+00
+std      9.611974e+01
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      3.100000e+03
+Name: Appliance4, dtype: float64
+
+Appliance5
+count    6.760511e+06
+mean     1.058335e+01
+std      1.512014e+02
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      2.728000e+03
+Name: Appliance5, dtype: float64
+
+Appliance6
+count    6.760511e+06
+mean     1.365497e+01
+std      2.243784e+01
+min      0.000000e+00
+25%      7.000000e+00
+50%      9.000000e+00
+75%      1.100000e+01
+max      2.059000e+03
+Name: Appliance6, dtype: float64
+
+Appliance7
+count    6.760511e+06
+mean     2.323880e+01
+std      3.355559e+01
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      6.200000e+01
+max      2.548000e+03
+Name: Appliance7, dtype: float64
+
+Appliance8
+count    6.760511e+06
+mean     9.577146e+00
+std      9.298872e+01
+min      0.000000e+00
+25%      2.000000e+00
+50%      2.000000e+00
+75%      2.000000e+00
+max      3.592000e+03
+Name: Appliance8, dtype: float64
+
+Appliance9
+count    6.760511e+06
+mean     1.072179e+01
+std      1.427870e+02
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      2.560000e+03
+Name: Appliance9, dtype: float64
+
+=== Maximum appliance powers ===
+Appliance1: 3968 W
+Appliance2: 3791 W
+Appliance3: 3717 W
+Appliance4: 3100 W
+Appliance5: 2728 W
+Appliance6: 2059 W
+Appliance7: 2548 W
+Appliance8: 3592 W
+Appliance9: 2560 W

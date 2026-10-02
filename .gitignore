@@ -1,0 +1,6 @@
+data/
+.venv/
+controlmodule/venv
+pi/snn_*
+results/**/*.csv
+results/**/*.pt

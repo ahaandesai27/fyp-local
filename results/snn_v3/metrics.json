@@ -1,0 +1,28 @@
+{
+  "model": "SNN_v2_delta",
+  "seed": 42,
+  "window": 96,
+  "horizon": 1,
+  "features": [
+    "grid",
+    "air1",
+    "furnace1",
+    "solar",
+    "refrigerator1",
+    "car1",
+    "waterheater1",
+    "drye1",
+    "dishwasher1",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos"
+  ],
+  "target": "grid_delta",
+  "test": {
+    "MAE": 0.42949965596199036,
+    "RMSE": 0.6903645701907826,
+    "R2": 0.746417760848999
+  },
+  "best_validation_rmse": 0.9613403778349355
+}
