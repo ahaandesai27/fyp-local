@@ -1,0 +1,80 @@
+{
+    "Ground Truth (Ideal Reference)": {
+        "model_name": "Ground Truth (Ideal Reference)",
+        "MAE_Watts": 0.0,
+        "RMSE_Watts": 0.0,
+        "R2_Score": 1.0,
+        "Peak_MAE_Watts": 0.0,
+        "Peak_Predicted_Mean_Watts": 4182.65,
+        "Trend_Accuracy_Pct": 100.0,
+        "Inference_Latency_ms": 0.0,
+        "Mean_Spikes_Per_Sample": 0.0,
+        "Mean_SynOps_Per_Sample": 0.0,
+        "training_time_s": 0.0
+    },
+    "Naive Persistence Baseline": {
+        "model_name": "Naive Persistence Baseline",
+        "MAE_Watts": 317.95,
+        "RMSE_Watts": 577.37,
+        "R2_Score": 0.5963,
+        "Peak_MAE_Watts": 1204.33,
+        "Peak_Predicted_Mean_Watts": 3240.72,
+        "Trend_Accuracy_Pct": 59.92,
+        "Inference_Latency_ms": 0.01,
+        "Mean_Spikes_Per_Sample": 0.0,
+        "Mean_SynOps_Per_Sample": 0.0,
+        "training_time_s": 0.0
+    },
+    "LSTM Baseline (Control)": {
+        "model_name": "LSTM Baseline (Control)",
+        "MAE_Watts": 303.87,
+        "RMSE_Watts": 560.34,
+        "R2_Score": 0.6198,
+        "Peak_MAE_Watts": 1255.06,
+        "Peak_Predicted_Mean_Watts": 2978.18,
+        "Trend_Accuracy_Pct": 70.69,
+        "Inference_Latency_ms": 0.184,
+        "Mean_Spikes_Per_Sample": 0.0,
+        "Mean_SynOps_Per_Sample": 0.0,
+        "training_time_s": 0.0
+    },
+    "GRU Baseline (Control)": {
+        "model_name": "GRU Baseline (Control)",
+        "MAE_Watts": 298.78,
+        "RMSE_Watts": 537.09,
+        "R2_Score": 0.6507,
+        "Peak_MAE_Watts": 1264.37,
+        "Peak_Predicted_Mean_Watts": 2965.02,
+        "Trend_Accuracy_Pct": 70.89,
+        "Inference_Latency_ms": 0.154,
+        "Mean_Spikes_Per_Sample": 0.0,
+        "Mean_SynOps_Per_Sample": 0.0,
+        "training_time_s": 0.0
+    },
+    "SNN with LIF Neurons (Hypothesis)": {
+        "model_name": "SNN with LIF Neurons (Hypothesis)",
+        "MAE_Watts": 317.97,
+        "RMSE_Watts": 568.35,
+        "R2_Score": 0.6088,
+        "Peak_MAE_Watts": 1230.15,
+        "Peak_Predicted_Mean_Watts": 3085.14,
+        "Trend_Accuracy_Pct": 62.9,
+        "Inference_Latency_ms": 0.283,
+        "Mean_Spikes_Per_Sample": 208.8,
+        "Mean_SynOps_Per_Sample": 9316.5,
+        "training_time_s": 0.0
+    },
+    "RSNN with Recurrent LIF (Hypothesis)": {
+        "model_name": "RSNN with Recurrent LIF (Hypothesis)",
+        "MAE_Watts": 317.57,
+        "RMSE_Watts": 569.24,
+        "R2_Score": 0.6076,
+        "Peak_MAE_Watts": 1260.85,
+        "Peak_Predicted_Mean_Watts": 3043.6,
+        "Trend_Accuracy_Pct": 64.29,
+        "Inference_Latency_ms": 0.359,
+        "Mean_Spikes_Per_Sample": 250.7,
+        "Mean_SynOps_Per_Sample": 24431.9,
+        "training_time_s": 0.0
+    }
+}
