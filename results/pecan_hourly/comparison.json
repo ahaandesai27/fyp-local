@@ -1,0 +1,36 @@
+{
+  "dataset": "Pecan Street Austin 15-minute data aggregated to hourly",
+  "interval": "60 minutes",
+  "homes": 25,
+  "window": 24,
+  "horizon": 1,
+  "window_counts": {
+    "train": 150150,
+    "validation": 31367,
+    "test": 32082
+  },
+  "same_test_rows_across_models": true,
+  "test_rows": 32082,
+  "persistence_baseline": {
+    "MAE": 0.4056346118450165,
+    "RMSE": 0.7200405310772742,
+    "R2": 0.6637214422225952
+  },
+  "models": {
+    "SNN": {
+      "MAE": 0.3864201605319977,
+      "RMSE": 0.6507161331113146,
+      "R2": 0.7253570556640625
+    },
+    "LSTM": {
+      "MAE": 0.3376315236091614,
+      "RMSE": 0.5788754155110759,
+      "R2": 0.7826520800590515
+    },
+    "GRU": {
+      "MAE": 0.3335323631763458,
+      "RMSE": 0.5748225301033578,
+      "R2": 0.7856848835945129
+    }
+  }
+}
