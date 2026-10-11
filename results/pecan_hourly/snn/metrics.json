@@ -1,0 +1,41 @@
+{
+  "model": "SNN",
+  "dataset": "Pecan Street Austin 15-minute data aggregated to hourly",
+  "seed": 42,
+  "interval": "60 minutes",
+  "window": 24,
+  "horizon": 1,
+  "features": [
+    "grid",
+    "air1",
+    "furnace1",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos"
+  ],
+  "target": "grid_delta",
+  "test": {
+    "MAE": 0.3864201605319977,
+    "RMSE": 0.6507161331113146,
+    "R2": 0.7253570556640625
+  },
+  "persistence_baseline": {
+    "MAE": 0.4056346118450165,
+    "RMSE": 0.7200405310772742,
+    "R2": 0.6637214422225952
+  },
+  "best_validation_rmse": 0.7730359663152678,
+  "homes": 25,
+  "window_counts": {
+    "train": 150150,
+    "validation": 31367,
+    "test": 32082
+  },
+  "units": "source grid units (hourly average power)",
+  "split": {
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15,
+    "chronological_per_home": true
+  }
+}
